@@ -1,6 +1,8 @@
 /*Body Color*/
 body {
-	background-color: #003D7F
+	background-color: #003D7F;
+	font-family: 'Michroma', sans-serif;
+	color: #4CA1FF
 }
 
 /* Navigation Styling */
@@ -19,13 +21,13 @@ body {
 	margin: auto;
   width: 30%;
   padding: 5px;
-  background-color: #0061CC;
+  background-color: #003D7F;
 	text-align: center;
 }
 .name {
 	font-family: 'Michroma', sans-serif;
 	font-size: 50px;
-	color: #4CA1FF;
+	color: white;
 }
 .profile {
 	heigt:200px;
@@ -34,4 +36,13 @@ body {
 .social {
 	height: 50px;
 	width: 50px;
+}
+
+/* Body Styling */
+.body {
+	font-family: 'Michroma'; sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #4CA1FF
 }
