@@ -21,7 +21,7 @@ body {
 	margin: auto;
   width: 30%;
   padding: 5px;
-  background-color: #003D7F;
+  background-color: #26507F;
 	text-align: center;
 }
 .name {
@@ -45,4 +45,14 @@ body {
 a {
 	text-decoration: none;
 	color: #4CA1FF
+}
+
+/* Form Styling */
+textarea {
+	resize: none;
+	border: 2px solid #0060CC;
+	border-radius: 5px;
+	height: 200px;
+	width: 600px;
+	outline: none;
 }
