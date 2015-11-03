@@ -1,10 +1,37 @@
-/* Heading Div Styling */
-div {
-	padding: 50px;
-	background-color: #6E6EFF
+/*Body Color*/
+body {
+	background-color: #003D7F
 }
 
-table{
-	font: red
+/* Navigation Styling */
+.navigation > a {
+	color: #4CA1FF;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Michroma', sans-serif;
+}
+.navigation {
+	text-align: right;
 }
 
+/* Heading Block Styling */
+.header {
+	margin: auto;
+  width: 30%;
+  padding: 5px;
+  background-color: #0061CC;
+	text-align: center;
+}
+.name {
+	font-family: 'Michroma', sans-serif;
+	font-size: 50px;
+	color: #4CA1FF;
+}
+.profile {
+	heigt:200px;
+	width: 200px;
+}
+.social {
+	height: 50px;
+	width: 50px;
+}
