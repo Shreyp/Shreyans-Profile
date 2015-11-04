@@ -47,6 +47,11 @@ a {
 	color: black;
 }
 
+h2{
+	font-family: 'Seaweed Script', cursive;
+	color:orange;
+}
+
 /* Form Styling */
 textarea {
 	resize: none;
