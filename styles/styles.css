@@ -1,64 +1,45 @@
 /*Body Color*/
 body {
-	background-color: #003D7F;
+	background-color: #00171F;
 	font-family: 'Michroma', sans-serif;
-	color: #4CA1FF
-}
-
-/* Navigation Styling */
-.navigation > a {
-	color: #4CA1FF;
-	font-size: 20px;
-	text-decoration: none;
-	font-family: 'Michroma', sans-serif;
-	padding: 5px;
-}
-.navigation {
-	position:fixed;
-	right: 0;
-}
-
-/* Header Block Styling */
-.header {
-	margin: auto;
-  width: 30%;
-  padding: 5px;
-	text-align: center;
-}
-.name {
-	font-family: 'Michroma', sans-serif;
-	font-size: 50px;
 	color: white;
 }
-.profile {
-	heigt:200px;
-	width: 200px;
-	border-radius: 30px;
-}
-.social {
-	height: 50px;
-	width: 50px;
+
+/*Header Styling*/
+.top {
+	border-bottom: 4px #003040 solid;
+	width: 101%;
+	margin-left: -10px;
 }
 
-/* Body Styling */
-.body {
-	font-family: 'Michroma'; sans-serif;
+.name {
+	font-size: 20px;
+	margin-left: 10px;
 }
-a {
+
+.dev {
+	color:#78747F;
+}
+
+/*Nav Styling*/
+nav {
+	position: absolute;
+	top:0;
+	right:0;
+	margin:20px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding-right:2px;
+	padding-left:2px;
+	font-size: 20px;
+	color: #003040;
+}
+
+a{
 	text-decoration: none;
-	color: black;
-}
-h2{
-	font-family: 'Oswald', sans-serif;
-	color:#9BBAFF;
-}
-
-/* Form Styling */
-textarea {
-	resize: none;
-	border: 2px solid #0060CC;
-	border-radius: 5px;
-	height: 200px;
-	width: 600px;
-	outline: none;
+	color:white;
+	font-size: 20px;
 }
