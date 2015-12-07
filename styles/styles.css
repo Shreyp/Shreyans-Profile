@@ -1,10 +1,16 @@
 /*Body Color*/
 body {
-	background-color: #00171F;
 	font-family: 'Michroma', sans-serif;
-	color: white;
 }
 
-#navbar {
-	background-color: black;
-}
+.navbar-custom {
+  background-color: #1d2120;
+  border-radius: 0;
+  margin-bottom: 0px;
+ }
+
+ #header-home {
+  background-color: #1d2120;
+  text-align: center;
+  padding: 30px;
+ }
